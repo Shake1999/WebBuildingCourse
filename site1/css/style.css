@@ -31,15 +31,15 @@ p {
     height: 30px;
 }
 
-.chicken {
+#chickenTitle {
     background-color: pink;
 }
 
-.beef {
+#beefTitle {
     background-color: coral;
 }
 
-.sushi {
+#sushiTitle {
     background-color: goldenrod;
 }
 
@@ -49,151 +49,84 @@ p {
 
 /* Desktop version */
 @media (min-width: 992px){
-    .des1, .des2, .des3, .des4, .des5, .des6, .des7, .des8, .des9, .des10, .des11, .des12 {
-        float: left;
-        border: 1px solid black;
-        position: relative;
-        background-color: gray;
-        margin: 5px;
-    }
     .chicken {
         float: left;
-        width: 30%;
+        width: 32%;
         border: 1px solid black;
         background-color: gray;
         position: relative;
-        margin: 5px;
+        margin: 6px;
     }
-    .des1{
-        width: 8.33%;
-    }
-    .des2{
-        width: 16.66%;
-    }
-    .des3{
-        width: 25%;
-    }
-    .des4{
+    .beef {
+        float: left;
         width: 32%;
+        border: 1px solid black;
+        background-color: gray;
+        position: relative;
+        margin: 6px;
     }
-    .des5{
-        width: 41.66%;
-    }
-    .des6{
-        width: 50%;
-    }
-    .des7{
-        width: 58.33%;
-    }
-    .des8{
-        width: 66.66%;
-    }
-    .des9{
-        width: 74.99%;
-    }
-    .des10{
-        width: 83.33%;
-    }
-    .des11{
-        width: 91.66%;
-    }
-    .des12{
-        width: 100%;
+    .sushi {
+        float: left;
+        width: 32%;
+        border: 1px solid black;
+        background-color: gray;
+        position: relative;
+        margin: 6px;
     }
 }
 
 /* Tablet Version */
 @media (min-width: 768px) and (max-width: 991px){
-    
-    .tab1, .tab2, .tab3, .tab4, .tab5, .tab6, .tab7, .tab8, .tab9, .tab10, .tab11, .tab12 {
+    .chicken {
         float: left;
-        border: 1px solid black;
-        position: relative;
-        background-color: gray;
-        margin: 5px;
-    }
-    .tab1{
-        width: 8.33%;
-    }
-    .tab2{
-        width: 16.66%;
-    }
-    .tab3{
-        width: 25%;
-    }
-    .tab4{
-        width: 33.33%;
-    }
-    .tab5{
-        width: 41.66%;
-    }
-    .tab6{
         width: 48%;
+        border: 1px solid black;
+        background-color: gray;
+        position: relative;
+        margin: 7px;
     }
-    .tab7{
-        width: 58.33%;
+    .beef {
+        float: left;
+        width: 48%;
+        border: 1px solid black;
+        background-color: gray;
+        position: relative;
+        margin: 7px;
     }
-    .tab8{
-        width: 66.66%;
-    }
-    .tab9{
-        width: 74.99%;
-    }
-    .tab10{
-        width: 83.33%;
-    }
-    .tab11{
-        width: 91.66%;
-    }
-    .tab12{
-        width: 100%;
+    .sushi {
+        float: left;
+        width: 98%;
+        border: 1px solid black;
+        background-color: gray;
+        position: relative;
+        margin: 5px;
     }
 }
 
 /* Mobile version */
 @media (max-width: 767px){
-    
-    .mob1, .mob2, .mob3, .mob4, .mob5, .mob6, .mob7, .mob8, .mob9, .mob10, .mob11, .mob12 {
+    .chicken {
         float: left;
+        width: 98%;
         border: 1px solid black;
-        position: relative;
         background-color: gray;
-        margin: 5px;
+        position: relative;
+        margin: 8px;
     }
-    .mob1{
-        width: 8.33%;
+    .beef {
+        float: left;
+        width: 98%;
+        border: 1px solid black;
+        background-color: gray;
+        position: relative;
+        margin: 8px;
     }
-    .mob2{
-        width: 16.66%;
-    }
-    .mob3{
-        width: 25%;
-    }
-    .mob4{
-        width: 33.33%;
-    }
-    .mob5{
-        width: 41.66%;
-    }
-    .mob6{
-        width: 50%;
-    }
-    .mob7{
-        width: 58.33%;
-    }
-    .mob8{
-        width: 66.66%;
-    }
-    .mob9{
-        width: 74.99%;
-    }
-    .mob10{
-        width: 83.33%;
-    }
-    .mob11{
-        width: 91.66%;
-    }
-    .mob12{
-        width: 98.5%;
+    .sushi {
+        float: left;
+        width: 98%;
+        border: 1px solid black;
+        background-color: gray;
+        position: relative;
+        margin: 8px;
     }
 }
